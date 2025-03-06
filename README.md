@@ -17,8 +17,15 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/python-youtube-downloader.git
-   cd python-youtube-downloaderpython3 -m venv venv
+   git clone https://github.com/ayowilfred95/youtube-video-downloader.git
+   ```
+2. **Navigate to the repository**
+   ```bash
+   cd python-youtube-downloader
+   ```
+3. **Set up the virtual environment**
+   ```bash
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
 
